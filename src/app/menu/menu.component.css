@@ -1,0 +1,21 @@
+.mCon{
+	margin: auto;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	overflow-y: auto;
+}
+li{
+	color: black;
+}
+span{
+}
+a{
+	color: gray;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+strong{
+	font-size: 20px;
+	color: black;
+}

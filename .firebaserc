@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "bogeysforburkey-77cf7": {
+      "hosting": {
+        "bfb": [
+          "bogeysforburkey-77cf7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "bogeysforburkey-77cf7"
+  }
+}

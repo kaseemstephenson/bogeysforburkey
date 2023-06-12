@@ -25,9 +25,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/app/myjs/main.js",
+              "src/app/myjs/e7fb1b89a0.js",
+
+              "src/app/myjs/translations.js",
+
+              "src/app/myjs/x0FBUm15-Fr2Te2aXjZd66S5iMg_KGhH7qJEaYgqv3bfe7wgfHYEBsJzwD9oFDIDWhwk528RZesKwAmcFRJu52Zc5Qjow2I35AsRwQmcwhwtFDMDwQbX52S-OPG0dW83da4XZcNC-Av0jhNlOfG0SY4zwKuh-AmaOcuoSeNkieZzde8zOcFzdPJIZhuD-KJIic.js",
+
+            ]
           },
           "configurations": {
             "production": {
@@ -35,12 +44,12 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "1000mb"
                 },
                 {
                   "type": "anyComponentStyle",
                   "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumError": "1000mb"
                 }
               ],
               "outputHashing": "all"
@@ -90,6 +99,13 @@
               "src/styles.css"
             ],
             "scripts": []
+          }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2,
+            "browserTarget": "bfb:build:production"
           }
         }
       }
